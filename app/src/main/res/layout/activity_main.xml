@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/back"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/logo"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/user"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="100sp"
+        android:backgroundTint="@color/teal_700"
+        android:ems="10"
+        android:hint="@string/city"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/whitec" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user"
+        android:fontFamily="@font/montserrat_bold"
+        android:id="@+id/main_btn"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="130sp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/serch"/>
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_btn"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/whitec"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/history_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_btn"
+        android:layout_marginLeft="210sp"
+        android:layout_marginRight="40sp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/history" />
+    <Button
+        android:id="@+id/history_btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_btn"
+        android:layout_marginRight="210sp"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="250dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/history_save" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/teal_700"
+        android:fontFamily="@font/montserrat_bold"
+        android:textColor="@color/whitec"
+        android:textColorHint="@color/whitec"/>
+
+
+</RelativeLayout>
+

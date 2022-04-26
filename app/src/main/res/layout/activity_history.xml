@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/back"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/logo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/history_logo"
+        android:layout_marginTop="50sp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo2"
+        android:fontFamily="@font/montserrat_bold"
+        android:id="@+id/main_btn_act"
+        android:layout_marginTop="20sp"
+        android:layout_marginHorizontal="130sp"
+        android:backgroundTint="@color/teal_700"
+        android:text="@string/clean"/>
+
+    <TextView
+        android:id="@+id/history_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/main_btn_act"
+        android:layout_marginTop="50sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/history_city"
+        android:layout_marginTop="20sp"
+        android:fontFamily="@font/montserrat_bold"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>

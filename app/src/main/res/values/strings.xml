@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Туту(Апи погоды)</string>
+    <string name="logo">Погода в регионе</string>
+    <string name="city">Введите город</string>
+    <string name="serch">Узнать погоду</string>
+    <string name="no_user">Введите текст</string>
+    <string name="history">Показать историю запросов</string>
+    <string name="history_logo">История запросов</string>
+    <string name="clean">Очистить</string>
+    <string name="history_save">Доб. в историю запросов</string>
+    <string-array name="Citys">
+        <item></item>
+        <item>Барсик</item>
+        <item>Мурзик</item>
+        <item>Васька</item>
+        <item>Рыжик</item>
+    </string-array>
+</resources>
